@@ -1,4 +1,4 @@
-#Task -04
+# Task -04
 
 Develop a hand gesture recognition model that can accurately identify and classify different hand gestures from image or video data, enabling intuitive human-computer interaction and gesture-based control systems.
 
@@ -57,10 +57,3 @@ The model is trained using the Adam optimizer and categorical crossentropy loss 
 3. Open `Copy_of_hand_gesture.ipynb` in Jupyter or Google Colab.
 4. Run all cells to train the model and visualize results.
 
-## 📬 Contact
-
-For queries or suggestions, feel free to open an issue or contact the repository owner.
-
----
-
-*Made with ❤️ for gesture-based human-computer interaction.*
