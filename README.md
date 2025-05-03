@@ -4,11 +4,11 @@ Develop a hand gesture recognition model that can accurately identify and classi
 
 ## Hand Gesture Recognition with CNN
 
-This repository contains a Jupyter Notebook for building a **Hand Gesture Recognition** model using Convolutional Neural Networks (CNNs). The project utilizes the [LeapGestRecog dataset](https://www.kaggle.com/datasets/gti-upm/leapgestrecog) from Kaggle to classify static hand gestures captured via a Leap Motion sensor.
+This repository contains a Jupyter Notebook for building a **Hand Gesture Recognition** model using Convolutional Neural Networks (CNNs). The project utilizes the [Hand Gesture Recognition dataset](https://www.kaggle.com/datasets/roobansappani/hand-gesture-recognition) from Kaggle to classify static hand gestures captured via a Leap Motion sensor.
 
 ## 📁 Project Structure
 
-- `Copy_of_hand_gesture.ipynb`: Main notebook that includes data loading, preprocessing, model creation, training, evaluation, and visualization.
+- `hand_gesture_final.ipynb`: Main notebook that includes data loading, preprocessing, model creation, training, evaluation, and visualization.
 - (Optional) `real_time_gesture_recognition.py`: Script for real-time gesture prediction using a webcam (to be included in the repo if available).
 
 ## 📌 Key Features
@@ -29,13 +29,15 @@ This repository contains a Jupyter Notebook for building a **Hand Gesture Recogn
 
 ## 📊 Dataset
 
-**LeapGestRecog Dataset**  
-- 10 different static hand gestures  
-- Captured from 10 different users  
-- Total of 20,000 images in `.png` format  
-- Resolution: 320x240 grayscale images
+**Hand Gesture Recognition Dataset**
+The hand gesture recognition dataset was created by subtracting the background from the hand images using OpenCV.
 
-[Kaggle Dataset Link](https://www.kaggle.com/datasets/gti-upm/leapgestrecog)
+The dataset contains of 10 classes: [call_me, rock_on, fingers_crossed, okay, paper, peace, rock, scissor, thumbs, up]
+
+Each class consists of around 500 images.
+
+
+[Kaggle Dataset Link]([https://www.kaggle.com/datasets/gti-upm/leapgestrecog](https://www.kaggle.com/datasets/roobansappani/hand-gesture-recognition))
 
 ## 🧱 Model Description
 
@@ -54,6 +56,6 @@ The model is trained using the Adam optimizer and categorical crossentropy loss 
 
 1. Clone this repository.
 2. Download the dataset from Kaggle and extract it into a directory (e.g., `data/`).
-3. Open `Copy_of_hand_gesture.ipynb` in Jupyter or Google Colab.
+3. Open `hand_gesture_final.ipynb` in Jupyter or Google Colab.
 4. Run all cells to train the model and visualize results.
 
